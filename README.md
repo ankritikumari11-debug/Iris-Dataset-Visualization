@@ -1,55 +1,77 @@
+🌸 Iris Dataset Visualization Using Python
 
-# Iris Dataset Visualization Using Python
+📌 Project Overview
 
-## Project Overview
+This project performs Exploratory Data Analysis (EDA) on the Iris Flower Dataset using Python.
 
-This project focuses on data analysis and
-visualization using the Iris Flower Dataset.
+It visualizes four important flower measurements using histograms and box plots.
 
-The project uses Python libraries to visualize
-four important flower features:
+🎯 Objectives
 
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
+- Create individual histograms for all four features.
+- Visualize all histograms using 2×2 subplots.
+- Create box plots for all four features in one figure.
+- Save all visualizations in JPEG format.
+- Understand data distribution and outliers.
 
-## Objectives
-
-1. Create individual histograms.
-2. Visualize all histograms using subplots.
-3. Create box plots for all four features.
-4. Save visualizations as JPEG images.
-5. Understand data distribution and outliers.
-
-## Technologies Used
+🛠️ Technologies Used
 
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
+- Google Colab
+- GitHub
 
-## Dataset
+📊 Dataset Information
 
-Iris Flower Dataset:
+- Total observations: 150
+- Total columns: 5
+- Flower species: 3
 
-https://www.kaggle.com/arshid/iris-flower-dataset
+Features:
 
-## Project Structure
+1. Sepal Length
+2. Sepal Width
+3. Petal Length
+4. Petal Width
 
-- iris-visualization.py
-- README.md
-- data/
-- outputs/
+Dataset: https://www.kaggle.com/arshid/iris-flower-dataset
 
-## Expected Results
+📈 Individual Histograms
 
-- Four individual histograms.
-- One combined histogram plot.
-- One combined box plot.
+1. Sepal Length
 
-## Author
+"Sepal Length" (sepal_length.jpg)
+
+2. Sepal Width
+
+"Sepal Width" (sepal_width.jpg)
+
+3. Petal Length
+
+"Petal Length" (petal_length.jpg)
+
+4. Petal Width
+
+"Petal Width" (petal_width.jpg)
+
+📊 Combined Histograms
+
+"Combined Histograms" (Iris_Combined_Histograms.jpg)
+
+📦 Combined Box Plots
+
+"Box Plots" (Iris_Boxplots.jpg)
+
+🔍 Conclusion
+
+The histograms help understand the frequency distribution of the four Iris features. Box plots help identify median, quartiles, data spread and outliers.
+
+👩‍💻 Author
 
 Ankriti Kumari
 
 Computer Science and Engineering
+
+Government Polytechnic Madhubani, Bihar
